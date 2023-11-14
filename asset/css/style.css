@@ -1,0 +1,14 @@
+@keyframes matrix {
+    0% {
+      transform: translateY(-100%);
+    }
+    100% {
+      transform: translateY(100%);
+    }
+  }
+
+  .matrix-animation {
+    animation: matrix 5s infinite;
+  }
+
+  

@@ -1,0 +1,774 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portofolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link href="./asset/css/style.css" rel="stylesheet">
+  <link href="./asset/css/tailwind.css" rel="stylesheet">
+  <link crossorigin="anonymous" href="./asset/css/main.min.css" media="screen"rel="stylesheet"/>
+
+</head>
+
+<body>
+  <header class="bg-gray-900 text-white py-4">
+    <div class="container mx-auto px-4">
+      <h1 class="text-4xl font-bold">Portofolio</h1>
+    </div>
+  </header>
+
+<canvas id="matrix"></canvas>
+
+<section class="py-10 md:py-16">
+
+    <div class="container max-w-screen-xl mx-auto px-4">
+
+        <nav class="flex items-center justify-between mb-40">
+            <img src="assets/image/navbar-logo.png" alt="Logo">
+
+            <button class="px-7 py-3 md:px-9 md:py-4 bg-white font-medium md:font-semibold text-gray-700 text-md rounded-md hover:bg-gray-700 hover:text-white transition ease-linear duration-500">Get my CV</button>
+        </nav>
+
+        <div class="text-center">
+            <div class="flex justify-center mb-16">
+                <img src="assets/image/home-img.png" alt="Image">
+            </div>
+
+            <h6 class="font-medium text-gray-600 text-lg md:text-2xl uppercase mb-8">Kate Wolff</h6>
+
+            <h1 class="font-normal text-gray-900 text-4xl md:text-7xl leading-none mb-8">Senior Backend Developer</h1>
+
+            <p class="font-normal text-gray-600 text-md md:text-xl mb-16">I have a passion for software. I enjoy creating tools that make life easier for people.</p>
+
+            <a href="#" class="px-7 py-3 md:px-9 md:py-4 font-medium md:font-semibold bg-gray-700 text-gray-50 text-sm rounded-md hover:bg-gray-50 hover:text-gray-700 transition ease-linear duration-500">Hire me</a>
+        </div>
+
+    </div>
+
+</section>
+
+<section class="py-10 md:py-16">
+
+    <div class="container max-w-screen-xl mx-auto px-4">
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div class="bg-gray-50 px-8 py-10 rounded-md">
+                <div class="w-20 py-6 flex justify-center bg-gray-100 rounded-md mb-4">
+                    <i data-feather="activity"></i>
+                </div>
+
+                <h4 class="font-medium text-gray-700 text-lg mb-4">High experience</h4>
+
+                <p class="font-normal text-gray-500 text-md">Lorem ipsum dolor sit amet, consectetur <br> adipiscing elit, sed do eiusmod tempor <br> incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+            
+            <div class="bg-gray-50 px-8 py-10 rounded-md">
+                <div class="w-20 py-6 flex justify-center bg-gray-100 rounded-md mb-4">
+                    <i data-feather="codesandbox"></i>
+                </div>
+
+                <h4 class="font-medium text-gray-700 text-lg mb-4">Useful sandboxes</h4>
+
+                <p class="font-normal text-gray-500 text-md">Lorem ipsum dolor sit amet, consectetur <br> adipiscing elit, sed do eiusmod tempor <br> incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+            
+            <div class="bg-gray-50 px-8 py-10 rounded-md">
+                <div class="w-20 py-6 flex justify-center bg-gray-100 rounded-md mb-4">
+                    <i data-feather="coffee"></i>
+                </div>
+
+                <h4 class="font-medium text-gray-700 text-lg mb-4">Success side projects</h4>
+
+                <p class="font-normal text-gray-500 text-md">Lorem ipsum dolor sit amet, consectetur <br> adipiscing elit, sed do eiusmod tempor <br> incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<section class="py-10 md:py-16">
+
+    <div class="container py-16 md:py-20" id="work">
+        <h2
+          class="text-center font-header text-4xl font-semibold uppercase text-primary sm:text-5xl lg:text-6xl"
+        >
+          My work experience
+        </h2>
+        <h3
+          class="pt-6 text-center font-header text-xl font-medium text-black sm:text-2xl lg:text-3xl"
+        >
+          Here's what I did before freelancing
+        </h3>
+      
+        <div class="relative mx-auto mt-12 flex w-full flex-col lg:w-2/3">
+          <span
+            class="left-2/5 absolute inset-y-0 ml-10 hidden w-0.5 bg-grey-40 md:block"
+          ></span>
+      
+          <div class="mt-8 flex flex-col text-center md:flex-row md:text-left">
+            <div class="md:w-2/5">
+              <div class="flex justify-center md:justify-start">
+                <span class="shrink-0">
+                  <img
+                    src="/assets/img/logo-spotify.svg"
+                    class="h-auto w-32"
+                    alt="company logo"
+                  />
+                </span>
+                <div class="relative ml-3 hidden w-full md:block">
+                  <span
+                    class="absolute inset-x-0 top-1/2 h-0.5 -translate-y-1/2 transform bg-grey-70"
+                  ></span>
+                </div>
+              </div>
+            </div>
+            <div class="md:w-3/5">
+              <div class="relative flex md:pl-18">
+                <span
+                  class="absolute left-8 top-1 hidden h-4 w-4 rounded-full border-2 border-grey-40 bg-white md:block"
+                ></span>
+      
+                <div class="mt-1 flex">
+                  <i class="bx bxs-right-arrow hidden text-primary md:block"></i>
+                  <div class="md:-mt-1 md:pl-8">
+                    <span class="block font-body font-bold text-grey-40"
+                      >Apr 2015 - Mar 2018</span
+                    >
+                    <span
+                      class="block pt-2 font-header text-xl font-bold uppercase text-primary"
+                      >Frontend Developer</span
+                    >
+                    <div class="pt-2">
+                      <span class="block font-body text-black"
+                        >Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Vestibulum mattis felis vitae risus pulvinar tincidunt. Nam ac
+                        venenatis enim.</span
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="mt-8 flex flex-col text-center md:flex-row md:text-left">
+            <div class="md:w-2/5">
+              <div class="flex justify-center md:justify-start">
+                <span class="shrink-0">
+                  <img
+                    src="/assets/img/logo-microsoft.svg"
+                    class="h-auto w-32"
+                    alt="company logo"
+                  />
+                </span>
+                <div class="relative ml-3 hidden w-full md:block">
+                  <span
+                    class="absolute inset-x-0 top-1/2 h-0.5 -translate-y-1/2 transform bg-grey-70"
+                  ></span>
+                </div>
+              </div>
+            </div>
+            <div class="md:w-3/5">
+              <div class="relative flex md:pl-18">
+                <span
+                  class="absolute left-8 top-1 hidden h-4 w-4 rounded-full border-2 border-grey-40 bg-white md:block"
+                ></span>
+      
+                <div class="mt-1 flex">
+                  <i class="bx bxs-right-arrow hidden text-primary md:block"></i>
+                  <div class="md:-mt-1 md:pl-8">
+                    <span class="block font-body font-bold text-grey-40"
+                      >Mar 2018 - September 2019</span
+                    >
+                    <span
+                      class="block pt-2 font-header text-xl font-bold uppercase text-primary"
+                      >Software Engineer</span
+                    >
+                    <div class="pt-2">
+                      <span class="block font-body text-black"
+                        >Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Vestibulum mattis felis vitae risus pulvinar tincidunt. Nam ac
+                        venenatis enim.</span
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="mt-8 flex flex-col text-center md:flex-row md:text-left">
+            <div class="md:w-2/5">
+              <div class="flex justify-center md:justify-start">
+                <span class="shrink-0">
+                  <img
+                    src="/assets/img/logo-fedex.svg"
+                    class="h-auto w-32"
+                    alt="company logo"
+                  />
+                </span>
+                <div class="relative ml-3 hidden w-full md:block">
+                  <span
+                    class="absolute inset-x-0 top-1/2 h-0.5 -translate-y-1/2 transform bg-grey-70"
+                  ></span>
+                </div>
+              </div>
+            </div>
+            <div class="md:w-3/5">
+              <div class="relative flex md:pl-18">
+                <span
+                  class="absolute left-8 top-1 hidden h-4 w-4 rounded-full border-2 border-grey-40 bg-white md:block"
+                ></span>
+      
+                <div class="mt-1 flex">
+                  <i class="bx bxs-right-arrow hidden text-primary md:block"></i>
+                  <div class="md:-mt-1 md:pl-8">
+                    <span class="block font-body font-bold text-grey-40"
+                      >October 2019 - Feb 2021</span
+                    >
+                    <span
+                      class="block pt-2 font-header text-xl font-bold uppercase text-primary"
+                      >DevOps Engineer</span
+                    >
+                    <div class="pt-2">
+                      <span class="block font-body text-black"
+                        >Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Vestibulum mattis felis vitae risus pulvinar tincidunt. Nam ac
+                        venenatis enim.</span
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div
+        class="bg-cover bg-top bg-no-repeat pb-16 md:py-16 lg:py-24"
+        style="background-image: url(/assets/img/experience-figure.png)"
+        id="statistics"
+      >
+        <div class="container">
+          <div
+            class="mx-auto w-5/6 bg-white py-16 shadow md:w-11/12 lg:py-20 xl:py-24 2xl:w-full"
+          >
+            <div class="grid grid-cols-2 gap-5 md:gap-8 xl:grid-cols-4 xl:gap-5">
+              <div
+                class="flex flex-col items-center justify-center text-center md:flex-row md:text-left"
+              >
+                <div>
+                  <img
+                    src="/assets/img/icon-project.svg"
+                    class="mx-auto h-12 w-auto md:h-20"
+                    alt="icon project"
+                  />
+                </div>
+                <div class="pt-5 md:pl-5 md:pt-0">
+                  <h1 class="font-body text-2xl font-bold text-primary md:text-4xl">
+                    12
+                  </h1>
+                  <h4
+                    class="text-grey-dark font-header text-base font-medium leading-loose md:text-xl"
+                  >
+                    Finished Projects
+                  </h4>
+                </div>
+              </div>
+      
+              <div
+                class="flex flex-col items-center justify-center text-center md:flex-row md:text-left"
+              >
+                <div>
+                  <img
+                    src="/assets/img/icon-award.svg"
+                    class="mx-auto h-12 w-auto md:h-20"
+                    alt="icon award"
+                  />
+                </div>
+                <div class="pt-5 md:pl-5 md:pt-0">
+                  <h1 class="font-body text-2xl font-bold text-primary md:text-4xl">
+                    3
+                  </h1>
+                  <h4
+                    class="text-grey-dark font-header text-base font-medium leading-loose md:text-xl"
+                  >
+                    Awards Won
+                  </h4>
+                </div>
+              </div>
+      
+              <div
+                class="mt-6 flex flex-col items-center justify-center text-center md:mt-10 md:flex-row md:text-left lg:mt-0"
+              >
+                <div>
+                  <img
+                    src="/assets/img/icon-happy.svg"
+                    class="mx-auto h-12 w-auto md:h-20"
+                    alt="icon happy clients"
+                  />
+                </div>
+                <div class="pt-5 md:pl-5 md:pt-0">
+                  <h1 class="font-body text-2xl font-bold text-primary md:text-4xl">
+                    8
+                  </h1>
+                  <h4
+                    class="text-grey-dark font-header text-base font-medium leading-loose md:text-xl"
+                  >
+                    Happy Clients
+                  </h4>
+                </div>
+              </div>
+      
+              <div
+                class="mt-6 flex flex-col items-center justify-center text-center md:mt-10 md:flex-row md:text-left lg:mt-0"
+              >
+                <div>
+                  <img
+                    src="/assets/img/icon-puzzle.svg"
+                    class="mx-auto h-12 w-auto md:h-20"
+                    alt="icon puzzle"
+                  />
+                </div>
+                <div class="pt-5 md:pl-5 md:pt-0">
+                  <h1 class="font-body text-2xl font-bold text-primary md:text-4xl">
+                    99
+                  </h1>
+                  <h4
+                    class="text-grey-dark font-header text-base font-medium leading-loose md:text-xl"
+                  >
+                    Bugs Fixed
+                  </h4>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+    <!-- <div class="container max-w-screen-xl mx-auto px-4">
+
+        <div class="flex flex-col lg:flex-row justify-between">
+            <div class="mb-10 lg:mb-0">
+                <h1 class="font-medium text-gray-700 text-3xl md:text-4xl mb-5">Portfolio</h1>
+
+                <p class="font-normal text-gray-500 text-xs md:text-base">I have brought here my biggest and favorite works <br> as a professional.</p>
+            </div>
+
+            <div class="space-y-24">
+                <div class="flex space-x-6">
+                    <h1 class="font-normal text-gray-700 text-3xl md:text-4xl">01</h1>
+
+                    <span class="w-28 h-0.5 bg-gray-300 mt-5"></span>
+
+                    <div>
+                        <h1 class="font-normal text-gray-700 text-3xl md:text-4xl mb-5">Demo API Generator</h1>
+
+                        <p class="font-normal text-gray-500 text-sm md:text-base">A dummy data free and documented API generator to facilitate <br> the process of testing the front-end portion of projects.</p>
+                    </div>
+                </div>
+                
+                <div class="flex space-x-6">
+                    <h1 class="font-normal text-gray-700 text-3xl md:text-4xl">02</h1>
+
+                    <span class="w-28 h-0.5 bg-gray-300 mt-5"></span>
+
+                    <div>
+                        <h1 class="font-normal text-gray-700 text-3xl md:text-4xl mb-5">Demo API Generator</h1>
+
+                        <p class="font-normal text-gray-500 text-sm md:text-base">A dummy data free and documented API generator to facilitate <br> the process of testing the front-end portion of projects.</p>
+                    </div>
+                </div>
+                
+                <div class="flex space-x-6">
+                    <h1 class="font-normal text-gray-700 text-3xl md:text-4xl">03</h1>
+
+                    <span class="w-28 h-0.5 bg-gray-300 mt-5"></span>
+
+                    <div>
+                        <h1 class="font-normal text-gray-700 text-3xl md:text-4xl mb-5">Demo API Generator</h1>
+
+                        <p class="font-normal text-gray-500 text-sm md:text-base">A dummy data free and documented API generator to facilitate <br> the process of testing the front-end portion of projects.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div> -->
+
+</section>
+
+<section class="py-10 md:py-16">
+
+    <div class="container max-w-screen-xl mx-auto px-4">
+
+        <h1 class="font-medium text-gray-700 text-3xl md:text-4xl mb-5">Education</h1>
+
+        <p class="font-normal text-gray-500 text-xs md:text-base mb-20">Below is a summary of the places I studied</p>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div class="bg-gray-50 px-8 py-10 rounded-md">
+                <h4 class="font-medium text-gray-700 text-lg mb-4">2015 – 2016</h4>
+
+                <p class="font-normal text-gray-500 text-md mb-4">Lorem ipsum dolor sit amet, consectetur <br> adipiscing elit, sed do eiusmod tempor <br> incididunt ut labore et dolore magna aliqua.</p>
+
+                <div class="relative">
+                    <h6 class="font-semibold text-gray-500 text-md relative z-10">See the place here</h6>
+                    <span class="w-32 h-1 bg-blue-200 absolute bottom-1 left-0 z-0"></span>
+                </div>
+            </div>
+
+            <div class="bg-gray-50 px-8 py-10 rounded-md">
+                <h4 class="font-medium text-gray-700 text-lg mb-4">2015 – 2016</h4>
+
+                <p class="font-normal text-gray-500 text-md mb-4">Lorem ipsum dolor sit amet, consectetur <br> adipiscing elit, sed do eiusmod tempor <br> incididunt ut labore et dolore magna aliqua.</p>
+
+                <div class="relative">
+                    <h6 class="font-semibold text-gray-500 text-md relative z-10">See the place here</h6>
+                    <span class="w-32 h-1 bg-blue-200 absolute bottom-1 left-0 z-0"></span>
+                </div>
+            </div>
+
+            <div class="bg-gray-50 px-8 py-10 rounded-md">
+                <h4 class="font-medium text-gray-700 text-lg mb-4">2015 – 2016</h4>
+
+                <p class="font-normal text-gray-500 text-md mb-4">Lorem ipsum dolor sit amet, consectetur <br> adipiscing elit, sed do eiusmod tempor <br> incididunt ut labore et dolore magna aliqua.</p>
+
+                <div class="relative">
+                    <h6 class="font-semibold text-gray-500 text-md relative z-10">See the place here</h6>
+                    <span class="w-32 h-1 bg-blue-200 absolute bottom-1 left-0 z-0"></span>
+                </div>
+            </div>
+
+            <div class="bg-gray-50 px-8 py-10 rounded-md">
+                <h4 class="font-medium text-gray-700 text-lg mb-4">2015 – 2016</h4>
+
+                <p class="font-normal text-gray-500 text-md mb-4">Lorem ipsum dolor sit amet, consectetur <br> adipiscing elit, sed do eiusmod tempor <br> incididunt ut labore et dolore magna aliqua.</p>
+
+                <div class="relative">
+                    <h6 class="font-semibold text-gray-500 text-md relative z-10">See the place here</h6>
+                    <span class="w-32 h-1 bg-blue-200 absolute bottom-1 left-0 z-0"></span>
+                </div>
+            </div>
+
+            <div class="bg-gray-50 px-8 py-10 rounded-md">
+                <h4 class="font-medium text-gray-700 text-lg mb-4">2015 – 2016</h4>
+
+                <p class="font-normal text-gray-500 text-md mb-4">Lorem ipsum dolor sit amet, consectetur <br> adipiscing elit, sed do eiusmod tempor <br> incididunt ut labore et dolore magna aliqua.</p>
+
+                <div class="relative">
+                    <h6 class="font-semibold text-gray-500 text-md relative z-10">See the place here</h6>
+                    <span class="w-32 h-1 bg-blue-200 absolute bottom-1 left-0 z-0"></span>
+                </div>
+            </div>
+
+            <div class="bg-gray-50 px-8 py-10 rounded-md">
+                <h4 class="font-medium text-gray-700 text-lg mb-4">2015 – 2016</h4>
+
+                <p class="font-normal text-gray-500 text-md mb-4">Lorem ipsum dolor sit amet, consectetur <br> adipiscing elit, sed do eiusmod tempor <br> incididunt ut labore et dolore magna aliqua.</p>
+
+                <div class="relative">
+                    <h6 class="font-semibold text-gray-500 text-md relative z-10">See the place here</h6>
+                    <span class="w-32 h-1 bg-blue-200 absolute bottom-1 left-0 z-0"></span>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<section class="py-10 md:py-16">
+
+    <div class="container max-w-screen-xl mx-auto px-4">
+
+        <div class="text-center">
+            <h1 class="font-normal text-gray-300 text-3xl md:text-6xl lg:text-7xl mb-20 md:mb-32 lg:mb-48">Please do not measure your skills in <br> percentages!</h1>
+
+            <p class="font-medium text-gray-700 text-xs md:text-base">In my many years of experience, I use @laravel for backend projects and @vuejs for <br> front-end projects. I’m an avid programmer, so I create designs based on the <br> weekend @figmadesign.</p>
+        </div>
+
+    </div>
+
+</section>
+
+<section class="py-10 md:py-16">
+
+    <div class="container max-w-screen-xl mx-auto px-4">
+
+        <h1 class="font-medium text-gray-700 text-3xl md:text-4xl mb-5">Experience</h1>
+
+        <p class="font-normal text-gray-500 text-xs md:text-base mb-20">Below is a summary of the places I studied</p>
+
+        <div class="flex flex-col lg:flex-row justify-between">
+            <div class="space-y-8 md:space-y-16 mb-16 md:mb-0">
+                <h6 class="font-medium text-gray-400 text-base uppercase">Company</h6>
+
+                <p class="font-semibold text-gray-600 text-base">Massa Fames <span class="font-normal text-gray-300">/ New York</span></p>
+
+                <p class="font-semibold text-gray-600 text-base">Massa Fames <span class="font-normal text-gray-300">/ New York</span></p>
+
+                <p class="font-semibold text-gray-600 text-base">Massa Fames <span class="font-normal text-gray-300">/ New York</span></p>
+
+                <p class="font-semibold text-gray-600 text-base">Massa Fames <span class="font-normal text-gray-300">/ New York</span></p>
+
+                <p class="font-semibold text-gray-600 text-base">Massa Fames <span class="font-normal text-gray-300">/ New York</span></p>
+            </div>
+
+            <div class="space-y-8 md:space-y-16 mb-16 md:mb-0">
+                <h6 class="font-medium text-gray-400 text-base uppercase">Position</h6>
+
+                <p class="font-normal text-gray-400 text-base">Junior Front-End Developer</p>
+
+                <p class="font-normal text-gray-400 text-base">Junior Front-End Developer</p>
+
+                <p class="font-normal text-gray-400 text-base">Junior Front-End Developer</p>
+
+                <p class="font-normal text-gray-400 text-base">Junior Front-End Developer</p>
+
+                <p class="font-normal text-gray-400 text-base">Junior Front-End Developer</p>
+            </div>
+
+            <div class="space-y-8 md:space-y-16">
+                <h6 class="font-medium text-gray-400 text-base uppercase">Year</h6>
+
+                <p class="font-normal text-gray-400 text-base">2016</p>
+
+                <p class="font-normal text-gray-400 text-base">2016</p>
+
+                <p class="font-normal text-gray-400 text-base">2016</p>
+
+                <p class="font-normal text-gray-400 text-base">2016</p>
+
+                <p class="font-normal text-gray-400 text-base">2016</p>
+            </div>
+        </div>
+        
+    </div>
+
+</section>
+
+<div class="bg-grey-50" id="blog">
+    <div class="container py-16 md:py-20">
+      <h2
+        class="text-center font-header text-4xl font-semibold uppercase text-primary sm:text-5xl lg:text-6xl"
+      >
+        I also like to write
+      </h2>
+      <h4
+        class="pt-6 text-center font-header text-xl font-medium text-black sm:text-2xl lg:text-3xl"
+      >
+        Check out my latest posts!
+      </h4>
+      <div
+        class="mx-auto grid w-full grid-cols-1 gap-6 pt-12 sm:w-3/4 lg:w-full lg:grid-cols-3 xl:gap-10"
+      >
+        <a href="/post" class="shadow">
+          <div
+            style="background-image: url(./asset/img/)"
+            class="group relative h-72 bg-cover bg-center bg-no-repeat sm:h-84 lg:h-64 xl:h-72"
+          >
+            <span
+              class="absolute inset-0 block bg-gradient-to-b from-blog-gradient-from to-blog-gradient-to bg-cover bg-center bg-no-repeat opacity-10 transition-opacity group-hover:opacity-50"
+            ></span>
+            <span
+              class="absolute right-0 bottom-0 mr-4 mb-4 block rounded-full border-2 border-white px-6 py-2 text-center font-body text-sm font-bold uppercase text-white md:text-base"
+              >Read More</span
+            >
+          </div>
+          <div class="bg-white py-6 px-5 xl:py-8">
+            <span class="block font-body text-lg font-semibold text-black"
+              >Aplikasi yang sedang dikembangkan</span
+            >
+            <span class="block pt-2 font-body text-grey-20"
+              >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.</span
+            >
+          </div>
+        </a>
+        <a href="#" class="shadow">
+          <div
+            style="background-image: url(/assets/img/post-02.png)"
+            class="group relative h-72 bg-cover bg-center bg-no-repeat sm:h-84 lg:h-64 xl:h-72"
+          >
+            <span
+              class="absolute inset-0 block bg-gradient-to-b from-blog-gradient-from to-blog-gradient-to bg-cover bg-center bg-no-repeat opacity-10 transition-opacity group-hover:opacity-50"
+            ></span>
+            <span
+              class="absolute right-0 bottom-0 mr-4 mb-4 block rounded-full border-2 border-white px-6 py-2 text-center font-body text-sm font-bold uppercase text-white md:text-base"
+              >Read More</span
+            >
+          </div>
+          <div class="bg-white py-6 px-5 xl:py-8">
+            <span class="block font-body text-lg font-semibold text-black"
+              >My personal productivity system</span
+            >
+            <span class="block pt-2 font-body text-grey-20"
+              >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.</span
+            >
+          </div>
+        </a>
+        <a href="/#" class="shadow">
+          <div
+            style="background-image: url(/assets/img/post-03.png)"
+            class="group relative h-72 bg-cover bg-center bg-no-repeat sm:h-84 lg:h-64 xl:h-72"
+          >
+            <span
+              class="absolute inset-0 block bg-gradient-to-b from-blog-gradient-from to-blog-gradient-to bg-cover bg-center bg-no-repeat opacity-10 transition-opacity group-hover:opacity-50"
+            ></span>
+            <span
+              class="absolute right-0 bottom-0 mr-4 mb-4 block rounded-full border-2 border-white px-6 py-2 text-center font-body text-sm font-bold uppercase text-white md:text-base"
+              >Read More</span
+            >
+          </div>
+          <div class="bg-white py-6 px-5 xl:py-8">
+            <span class="block font-body text-lg font-semibold text-black"
+              >My year in review 2020</span
+            >
+            <span class="block pt-2 font-body text-grey-20"
+              >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.</span
+            >
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+
+
+<!-- <section class="py-10 md:py-16">
+
+    <div class="container max-w-screen-xl mx-auto px-4">
+
+        <h1 class="font-medium text-gray-700 text-3xl md:text-4xl mb-5">Brands</h1>
+
+        <p class="font-normal text-gray-500 text-xs md:text-base mb-10 md:mb-20">Below is a summary of the places I studied</p>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+            <img src="assets/image/brand-1.png" alt="Image">
+
+            <img src="assets/image/brand-2.png" alt="Image">
+
+            <img src="assets/image/brand-3.png" alt="Image">
+
+            <img src="assets/image/brand-4.png" alt="Image">
+
+            <img src="assets/image/brand-5.png" alt="Image">
+
+            <img src="assets/image/brand-6.png" alt="Image">
+        </div>
+
+    </div>
+
+</section> -->
+
+<section class="py-10 md:py-16">
+
+    <div class="container max-w-screen-xl mx-auto px-4">
+
+        <h1 class="font-medium text-gray-700 text-3xl md:text-4xl mb-5">Testimonial</h1>
+
+        <p class="font-normal text-gray-500 text-xs md:text-base mb-10 md:mb-20">Below is a summary of the places I studied</p>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div class="bg-gray-50 px-8 py-10 rounded-md">
+
+                <p class="font-normal text-gray-500 text-md mb-4">Lorem ipsum dolor sit amet, consectetur <br> adipiscing elit, sed do eiusmod tempor <br> incididunt ut labore et dolore magna aliqua.</p>
+
+                <h6 class="font-semibold text-gray-500 text-md">Stephan Clark <span class="font-medium text-gray-300 text-sm">- CEO at EarlyBird</span></h6>
+            </div>
+
+            <div class="bg-gray-50 px-8 py-10 rounded-md">
+
+                <p class="font-normal text-gray-500 text-md mb-4">Lorem ipsum dolor sit amet, consectetur <br> adipiscing elit, sed do eiusmod tempor <br> incididunt ut labore et dolore magna aliqua.</p>
+
+                <h6 class="font-semibold text-gray-500 text-md">Stephan Clark <span class="font-medium text-gray-300 text-sm">- CEO at EarlyBird</span></h6>
+            </div>
+
+            <div class="bg-gray-50 px-8 py-10 rounded-md">
+
+                <p class="font-normal text-gray-500 text-md mb-4">Lorem ipsum dolor sit amet, consectetur <br> adipiscing elit, sed do eiusmod tempor <br> incididunt ut labore et dolore magna aliqua.</p>
+
+                <h6 class="font-semibold text-gray-500 text-md">Stephan Clark <span class="font-medium text-gray-300 text-sm">- CEO at EarlyBird</span></h6>
+            </div>
+
+            <div class="bg-gray-50 px-8 py-10 rounded-md">
+
+                <p class="font-normal text-gray-500 text-md mb-4">Lorem ipsum dolor sit amet, consectetur <br> adipiscing elit, sed do eiusmod tempor <br> incididunt ut labore et dolore magna aliqua.</p>
+
+                <h6 class="font-semibold text-gray-500 text-md">Stephan Clark <span class="font-medium text-gray-300 text-sm">- CEO at EarlyBird</span></h6>
+            </div>
+
+            <div class="bg-gray-50 px-8 py-10 rounded-md">
+
+                <p class="font-normal text-gray-500 text-md mb-4">Lorem ipsum dolor sit amet, consectetur <br> adipiscing elit, sed do eiusmod tempor <br> incididunt ut labore et dolore magna aliqua.</p>
+
+                <h6 class="font-semibold text-gray-500 text-md">Stephan Clark <span class="font-medium text-gray-300 text-sm">- CEO at EarlyBird</span></h6>
+            </div>
+
+            <div class="bg-gray-50 px-8 py-10 rounded-md">
+
+                <p class="font-normal text-gray-500 text-md mb-4">Lorem ipsum dolor sit amet, consectetur <br> adipiscing elit, sed do eiusmod tempor <br> incididunt ut labore et dolore magna aliqua.</p>
+
+                <h6 class="font-semibold text-gray-500 text-md">Stephan Clark <span class="font-medium text-gray-300 text-sm">- CEO at EarlyBird</span></h6>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<footer class="py-10 md:py-16 mb-20 md:mb-40 lg::mb-52">
+
+    <div class="container max-w-screen-xl mx-auto px-4">
+
+        <div class="text-center">
+            <h1 class="font-medium text-gray-700 text-4xl md:text-5xl mb-5">Testimonial</h1>
+
+            <p class="font-normal text-gray-400 text-md md:text-lg mb-20">I’m not currently taking on new client work but feel free to contact me for any <br> other inquiries.</p>
+
+            <div class="flex items-center justify-center space-x-8">
+                <a href="#" class="w-16 h-16 flex items-center justify-center rounded-full hover:bg-gray-200 transition ease-in-out duration-500">
+                    <i data-feather="twitter" class="text-gray-500 hover:text-gray-800 transition ease-in-out duration-500"></i>
+                </a>
+
+                <a href="#" class="w-16 h-16 flex items-center justify-center rounded-full hover:bg-gray-200 transition ease-in-out duration-500">
+                    <i data-feather="dribbble" class="text-gray-500 hover:text-gray-700 transition ease-in-out duration-500"></i>
+                </a>
+
+                <a href="#" class="w-16 h-16 flex items-center justify-center rounded-full hover:bg-gray-200 transition ease-in-out duration-500">
+                    <i data-feather="facebook" class="text-gray-500 hover:text-gray-700 transition ease-in-out duration-500"></i>
+                </a>
+
+                <a href="#" class="w-16 h-16 flex items-center justify-center rounded-full hover:bg-gray-200 transition ease-in-out duration-500">
+                    <i data-feather="codepen" class="text-gray-500 hover:text-gray-700 transition ease-in-out duration-500"></i>
+                </a>
+
+                <a href="#" class="w-16 h-16 flex items-center justify-center rounded-full hover:bg-gray-200 transition ease-in-out duration-500">
+                    <i data-feather="at-sign" class="text-gray-500 hover:text-gray-700 transition ease-in-out duration-500"></i>
+                </a>
+
+                <a href="#" class="w-16 h-16 flex items-center justify-center rounded-full hover:bg-gray-200 transition ease-in-out duration-500">
+                    <i data-feather="instagram" class="text-gray-500 hover:text-gray-700 transition ease-in-out duration-500"></i>
+                </a>
+            </div>
+        </div>
+
+    </div>
+
+</footer>
+
+
+<script>
+    feather.replace()
+</script>
+
+  <!-- //javascript -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="./asset/js/script.js"></script>
+</body>
+</html>
