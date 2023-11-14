@@ -79,3 +79,26 @@ const canvas = document.getElementById('matrix');
         
         update();
         setInterval(draw, 14400);
+
+
+
+
+        //function button cv convert to pdf
+        const downloadBtn = document.getElementById('btnDownload');
+
+        downloadBtn.addEventListener('click', () => {
+            // Mendapatkan elemen HTML yang ingin diubah ke PDF
+            const element = document.body;
+
+            // Opsi konfigurasi untuk html2pdf
+            const options = {
+                margin: 10,
+                filename: 'CV.pdf',
+                image: { type: 'jpeg', quality: 0.98 },
+                html2canvas: { scale: 2 },
+                jsPDF: { unit: 'mm', format: 'a4', orientation: 'portrait' }
+            };
+
+            // Menggunakan html2pdf untuk mengonversi elemen ke PDF dan mengunduhnya
+            html2pdf(element, options);
+        });
