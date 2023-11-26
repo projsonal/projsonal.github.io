@@ -17,3 +17,22 @@ mood.addEventListener("click", function (){
        root.classList.add("dark")
    }
 })
+
+
+// Get the current date
+const currentDate = new Date();
+
+// Array of month names
+const months = [
+    "January", "February", "March", "April", "May", "June", "July",
+    "August", "September", "October", "November", "December"
+];
+
+// Extract day, month, and year
+const day = currentDate.getDate();
+const monthIndex = currentDate.getMonth();
+const year = currentDate.getFullYear();
+
+// Display the date
+const dateDisplay = document.getElementById("dateDisplay");
+dateDisplay.textContent = `${day} ${months[monthIndex]} ${year}`;

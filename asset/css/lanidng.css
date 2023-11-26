@@ -1,0 +1,45 @@
+/* Reset default margin and padding */
+body,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the header */
+header {
+    background-color: #b30000; /* Dark red brick background */
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+}
+
+/* Style the main section */
+main {
+    background-color: white;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.landing h1 {
+    font-size: 36px;
+    color: #333; /* Dark text color */
+}
+
+.landing p {
+    font-size: 18px;
+    color: #666; /* Slightly lighter text color */
+}

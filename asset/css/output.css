@@ -1,11 +1,4 @@
-/*
-! tailwindcss v3.2.2 | MIT License | https://tailwindcss.com
-*/
 
-/*
-1. Prevent padding and border from affecting element width. (https://github.com/mozdevs/cssremedy/issues/4)
-2. Allow adding a border to an element by just adding a border-width. (https://github.com/tailwindcss/tailwindcss/pull/116)
-*/
 
 *,
 ::before,
@@ -16,7 +9,7 @@
   /* 2 */
   border-style: solid;
   /* 2 */
-  border-color: #e5e7eb;
+  border-color: #b31717;
   /* 2 */
 }
 
@@ -354,7 +347,7 @@ textarea {
 input::-moz-placeholder, textarea::-moz-placeholder {
   opacity: 1;
   /* 1 */
-  color: #9ca3af;
+  color: #b31717;
   /* 2 */
 }
 
@@ -362,7 +355,7 @@ input::placeholder,
 textarea::placeholder {
   opacity: 1;
   /* 1 */
-  color: #9ca3af;
+  color: #b31717;
   /* 2 */
 }
 
@@ -441,11 +434,11 @@ video {
   --tw-ring-inset:  ;
   --tw-ring-offset-width: 0px;
   --tw-ring-offset-color: #fff;
-  --tw-ring-color: rgb(59 130 246 / 0.5);
-  --tw-ring-offset-shadow: 0 0 #0000;
-  --tw-ring-shadow: 0 0 #0000;
-  --tw-shadow: 0 0 #0000;
-  --tw-shadow-colored: 0 0 #0000;
+  --tw-ring-color: rgb(69, 34, 32 / 0.5);
+  --tw-ring-offset-shadow: 0 0 #452220;
+  --tw-ring-shadow: 0 0 #452220;
+  --tw-shadow: 0 0 #452220;
+  --tw-shadow-colored: 0 0 #452220;
   --tw-blur:  ;
   --tw-brightness:  ;
   --tw-contrast:  ;
@@ -488,11 +481,11 @@ video {
   --tw-ring-inset:  ;
   --tw-ring-offset-width: 0px;
   --tw-ring-offset-color: #fff;
-  --tw-ring-color: rgb(59 130 246 / 0.5);
-  --tw-ring-offset-shadow: 0 0 #0000;
-  --tw-ring-shadow: 0 0 #0000;
-  --tw-shadow: 0 0 #0000;
-  --tw-shadow-colored: 0 0 #0000;
+  --tw-ring-color: rgb(69, 34, 32 / 0.5);
+  --tw-ring-offset-shadow: 0 0 #452220;
+  --tw-ring-shadow: 0 0 #452220;
+  --tw-shadow: 0 0 #452220;
+  --tw-shadow-colored: 0 0 #452220;
   --tw-blur:  ;
   --tw-brightness:  ;
   --tw-contrast:  ;
@@ -549,49 +542,49 @@ video {
 
 .seceltion *::-moz-selection {
   --tw-bg-opacity: 1;
-  background-color: rgb(9 14 52 / var(--tw-bg-opacity));
+  background-color: rgb(10 20 65 / var(--tw-bg-opacity));
   color: rgb(255 255 255 / var(--tw-text-opacity));
   --tw-text-opacity: 1;
 }
 
 .seceltion *::selection {
   --tw-bg-opacity: 1;
-  background-color: rgb(9 14 52 / var(--tw-bg-opacity));
+  background-color: rgb(10 20 65 / var(--tw-bg-opacity));
   color: rgb(255 255 255 / var(--tw-text-opacity));
   --tw-text-opacity: 1;
 }
 
 .seceltion::-moz-selection {
   --tw-bg-opacity: 1;
-  background-color: rgb(9 14 52 / var(--tw-bg-opacity));
+  background-color: rgb(10 20 65 / var(--tw-bg-opacity));
   color: rgb(255 255 255 / var(--tw-text-opacity));
   --tw-text-opacity: 1;
 }
 
 .seceltion::selection {
   --tw-bg-opacity: 1;
-  background-color: rgb(9 14 52 / var(--tw-bg-opacity));
+  background-color: rgb(10 20 65 / var(--tw-bg-opacity));
   color: rgb(255 255 255 / var(--tw-text-opacity));
   --tw-text-opacity: 1;
 }
 
 .dark .seceltion *::-moz-selection {
-  background-color: rgb(255 255 100 / var(--tw-bg-opacity));
+  background-color: rgb(69, 34, 32 / var(--tw-bg-opacity));
   --tw-bg-opacity: 0.1;
 }
 
 .dark .seceltion *::selection {
-  background-color: rgb(255 255 100 / var(--tw-bg-opacity));
+  background-color: rgb(69, 34, 32 / var(--tw-bg-opacity));
   --tw-bg-opacity: 0.1;
 }
 
 .dark .seceltion::-moz-selection {
-  background-color: rgb(255 255 100 / var(--tw-bg-opacity));
+  background-color: rgb(69, 34, 32 / var(--tw-bg-opacity));
   --tw-bg-opacity: 0.1;
 }
 
 .dark .seceltion::selection {
-  background-color: rgb(255 255 100 / var(--tw-bg-opacity));
+  background-color: rgb(69, 34, 32 / var(--tw-bg-opacity));
   --tw-bg-opacity: 0.1;
 }
 
@@ -599,7 +592,7 @@ video {
   margin-bottom: 1rem;
   font-weight: 700;
   --tw-text-opacity: 1;
-  color: rgb(23 23 23 / var(--tw-text-opacity));
+  color: rgb(30 30 30 / var(--tw-text-opacity));
 }
 
 .dark .heading {
@@ -612,7 +605,7 @@ video {
   line-height: 1.75rem;
   font-weight: 400;
   --tw-text-opacity: 1;
-  color: rgb(23 23 23 / var(--tw-text-opacity));
+  color: rgb(30 30 30 / var(--tw-text-opacity));
 }
 
 .menu-item:hover {
@@ -621,7 +614,7 @@ video {
 
 .dark .menu-item {
   --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
+  color: rgb(255 255 256 / var(--tw-text-opacity));
 }
 
 .btn {
@@ -671,7 +664,7 @@ video {
   border-width: 1px;
   border-color: rgb(255 251 235 / var(--tw-border-opacity));
   --tw-border-opacity: 0.1;
-  background-color: rgb(9 14 52 / var(--tw-bg-opacity));
+  background-color: rgb(179, 23, 23 / var(--tw-bg-opacity));
   --tw-bg-opacity: 0.1;
   padding-left: 0.5rem;
   padding-right: 0.5rem;
@@ -679,15 +672,15 @@ video {
   padding-bottom: 2rem;
   --tw-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
   --tw-shadow-colored: 0 1px 2px 0 var(--tw-shadow-color);
-  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
-  --tw-shadow-color: #efefef4f;
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #452220), var(--tw-ring-shadow, 0 0 #452220), var(--tw-shadow);
+  --tw-shadow-color: #b31717;
   --tw-shadow: var(--tw-shadow-colored);
 }
 
 .features-box:hover {
   --tw-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
   --tw-shadow-colored: 0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);
-  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #452220), var(--tw-ring-shadow, 0 0 #452220), var(--tw-shadow);
   --tw-shadow-color: #efefef2f;
   --tw-shadow: var(--tw-shadow-colored);
 }
@@ -772,15 +765,15 @@ video {
   padding-bottom: 3rem;
   --tw-shadow: 0px 5px 10px rgba(4, 10, 34, .2);
   --tw-shadow-colored: 0px 5px 10px var(--tw-shadow-color);
-  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #452220), var(--tw-ring-shadow, 0 0 #452220), var(--tw-shadow);
 }
 
 .dark .price-table {
   --tw-bg-opacity: 1;
   background-color: rgb(29 33 68 / var(--tw-bg-opacity));
-  --tw-shadow: 0 0 #0000;
-  --tw-shadow-colored: 0 0 #0000;
-  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+  --tw-shadow: 0 0 #452220;
+  --tw-shadow-colored: 0 0 #452220;
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #452220), var(--tw-ring-shadow, 0 0 #452220), var(--tw-shadow);
 }
 
 .price-btn {
@@ -839,7 +832,7 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
   --tw-shadow: 0px 5px 10px rgba(4, 10, 34, .2);
   --tw-shadow-colored: 0px 5px 10px var(--tw-shadow-color);
-  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #452220), var(--tw-ring-shadow, 0 0 #452220), var(--tw-shadow);
   outline-width: 0px;
 }
 
@@ -1193,7 +1186,7 @@ video {
 
 .bg-\[\#090E34\] {
   --tw-bg-opacity: 1;
-  background-color: rgb(9 14 52 / var(--tw-bg-opacity));
+  background-color: rgb(10 20 65 / var(--tw-bg-opacity));
 }
 
 .bg-\[\#efefef\] {
@@ -1203,7 +1196,7 @@ video {
 
 .bg-dark {
   --tw-bg-opacity: 1;
-  background-color: rgb(9 14 52 / var(--tw-bg-opacity));
+  background-color: rgb(10 20 65 / var(--tw-bg-opacity));
 }
 
 .bg-gray-600 {
@@ -1450,10 +1443,10 @@ video {
 
 .dark .dark\:bg-dark {
   --tw-bg-opacity: 1;
-  background-color: rgb(9 14 52 / var(--tw-bg-opacity));
+  background-color: rgb(10 20 65 / var(--tw-bg-opacity));
 }
 
-.dark .dark\:bg-\[\#ffff64\] {
+.dark .dark\:bg-\[\#b31717\] {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 100 / var(--tw-bg-opacity));
 }
@@ -1673,7 +1666,7 @@ video {
 @tailwind utilities;
 @layer components {
     .seceltion {
-        @apply selection:bg-dark selection:text-white selection:text-opacity-100 dark:selection:bg-[#ffff64] dark:selection:bg-opacity-10
+        @apply selection:bg-dark selection:text-white selection:text-opacity-100 dark:selection:bg-[#b31717] dark:selection:bg-opacity-10
     }
 
     .custom-transition {

@@ -102,3 +102,8 @@ const canvas = document.getElementById('matrix');
             // Menggunakan html2pdf untuk mengonversi elemen ke PDF dan mengunduhnya
             html2pdf(element, options);
         });
+
+        let tahunSekarang = new Date().getFullYear();
+        console.log("Tahun saat ini:", tahunSekarang);
+
+        
